@@ -2,7 +2,7 @@ import boto3
 import re
 import datetime
 
-ec = boto3.client('ec2')
+ec2 = boto3.client('ec2')
 iam = boto3.client('iam')
 
 """
